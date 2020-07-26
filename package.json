@@ -1,0 +1,25 @@
+{
+  "name": "webinar3iks",
+  "version": "2.0.0",
+  "description": "Aplicación Cloud Native",
+  "main": "index.js",
+  "repository": "https://us-south.git.cloud.ibm.com/Rajhut.Fernandez1/webinar-1q-2020-sesion2.git",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Rajhut Fernandez",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudant/cloudant": "^4.2.4",
+    "body-parser": "^1.19.0",
+    "cfenv": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-status": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
