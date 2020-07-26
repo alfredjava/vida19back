@@ -38,8 +38,11 @@ class Repository {
     }
 
     async initializationCloudant() {
+        console.log("username :" + this.serviceSettings.username);
+        console.log("password :" + this.serviceSettings.password);
+        console.log("url :" + this.serviceSettings.url);
         try {
-            return await Cloudant({ username: this.serviceSettings.username, password: this.serviceSettings.password, url: this.serviceSettings.url });
+            return await Cloudant({ username: this.serviceSettings.username1, password: this.serviceSettings.password, url: this.serviceSettings.url });
         } catch (error) {
             console.error(error);
         }
