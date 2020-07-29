@@ -1,6 +1,6 @@
 applications:
 - path: .
-  name: demonode
+  name: vida19back
   instances: 1
   memory: 128M
   disk_quota: 256M
