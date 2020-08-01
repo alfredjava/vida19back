@@ -4,8 +4,10 @@
 Este es un proyecto backend VIDA 19 web en JavaScript - NodeJS que consume la base de datos noSQL Cloudant.
 <br />
 Tiene dos rutas:
-
-* La segunda permite Listar el dialogo usado por watson assistant
+* La primera permite Insertar un nuevo documento dentro de la base de datos 'db-prueba'.
+    * [POST] /insert
+        * [OBJECT] {'intents': string, 'examples': string, 'text': int}
+* La segunda permite Listar lo registrado.
     * [GET] /list
 
 <br />
