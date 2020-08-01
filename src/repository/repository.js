@@ -12,9 +12,9 @@ class Repository {
         let db = await cloudant.db.use(this.serviceSettings.db);
 
         let doc = {
-            'nombre': body.nombre,
-            'apellido': body.apellido,
-            'edad': body.edad
+            'intents': body.intents,
+            'examples': body.examples,
+            'text': body.text
         }
 
         return await db.insert(doc).catch((err) => {

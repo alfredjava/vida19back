@@ -1,13 +1,11 @@
 **Cloudant - NodeJS APIs**
 <br />
 <br />
-Este es un proyecto backend web en JavaScript - NodeJS que consume la base de datos noSQL Cloudant.
+Este es un proyecto backend VIDA 19 web en JavaScript - NodeJS que consume la base de datos noSQL Cloudant.
 <br />
 Tiene dos rutas:
-* La primera permite Insertar un nuevo documento dentro de la base de datos 'db-prueba'.
-    * [POST] /insert
-        * [OBJECT] {'nombre': string, 'apellido': string, 'edad': int}
-* La segunda permite Listar lo registrado.
+
+* La segunda permite Listar el dialogo usado por watson assistant
     * [GET] /list
 
 <br />
